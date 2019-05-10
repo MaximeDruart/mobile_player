@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.557" height="77.467" viewBox="0 0 84.557 77.467">
+  <defs>
+    <filter id="coverBorder" x="0" y="0" width="84.557" height="77.467" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#coverBorder)">
+    <path id="coverBorder-2" data-name="coverBorder" d="M3147.938,7991.591v58.366H3109.8s-28-3.839-27.408-28.789,22.084-29.38,27.408-29.577S3147.938,7991.591,3147.938,7991.591Z" transform="translate(-3072.88 -7984.99)" fill="none" stroke="#198da6" stroke-width="1"/>
+  </g>
+</svg>
